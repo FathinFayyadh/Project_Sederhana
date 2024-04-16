@@ -5,7 +5,7 @@
    $action = isset($_GET['action']) ? $_GET['action'] : '/';  
    $mahasiswaController= new MahasiswaController();
    switch ($action){
-      case '/':
+      case '/':   
          $mahasiswaController->index();
          break;
 

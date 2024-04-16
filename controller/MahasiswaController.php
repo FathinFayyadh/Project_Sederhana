@@ -12,9 +12,7 @@ require 'model/Mahasiswa.php';
 
     public function index(){
         $mahasiswa= $this->model->getAll();
-        // return $mahasiswa;
-        print_r($mahasiswa);
-        // include('view/Table-mahasiswa.php');
+        include('view/TableMahasiswa.php');
     }
 
  }
