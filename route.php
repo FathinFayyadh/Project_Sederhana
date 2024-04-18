@@ -10,7 +10,9 @@
          break;
 
       case '/detail-mahasiswa':
-         echo "Masuk ke detail mahasiswa"; 
+         $id = $_GET['id'];
+         $mahasiswaController->show($id);
+
          break;
 
       case '/tambah-mahasiswa':

@@ -5,7 +5,7 @@ class Database {
 
     private $hostname = "localhost";
     private $username = "root";
-    private $password = "";  // Masukkan kata sandi Anda di sini
+    private $password = "";  
     private $database_name = "acadmey_ubd";
     private $sql;
 
